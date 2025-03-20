@@ -167,12 +167,13 @@ body, html {
   }
 }
 
-@media (max-width: 767.98px) and (min-width: 576px) {
+@media (max-width: 766.98px) and (min-width: 576px) {
   .texts1 {
       margin-left: 241px !important;
       margin-bottom: -172px;
       
   }
+
   .whatsapp_logo  {
     width: 170px !important;
     margin-bottom: 120px !important;
@@ -193,25 +194,7 @@ body, html {
   }
 }
 
-@media (max-width: 991.98px) and (min-width: 768px) {
-  .texts1 {
-      margin-left: 150px !important;
-      margin-bottom: -150px;
-  }
 
-  .whatsapp_logo img {
-      width: 170px !important;
-      margin-bottom: 80px !important;
-      margin-left: 30px !important;
-  }
-
-  .right_logo img {
-    margin-right: 70px;
-    min-width:  200px;
-}
-
-
-}
 
 /* Animations */
 @keyframes fadeIn {
