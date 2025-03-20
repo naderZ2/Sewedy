@@ -5,6 +5,68 @@ body, html {
   box-sizing: border-box;
   font-family: Arial, sans-serif;
   height: 100%;
+  overflow: hidden;
+}
+
+
+
+.logo {
+  text-align: left;
+  /* color: #fff; */
+  font-family: Arial, sans-serif;
+  margin-left: -400px;
+  animation: fadeIn 3s ease-in-out;
+}
+
+
+
+
+.logo span {
+  
+
+  display: block;
+}
+
+.logo p {
+  font-size: 1.5rem;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #F8A300;
+}
+
+.logo button {
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  padding: 2px 20px;
+  margin-top: 20px;
+  margin-left: 9px;
+  border: white 2px solid;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.logo button:hover {
+  background-color: #D87D00;
+}
+
+
+
+.firstSpan {
+  color: #F8A300 ;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 65px;
+}
+.sceSpan {
+  color: #fff ;
+  font-size: 62px ;
+  font-weight: 900 !important;
+  font-weight: bold;
+  margin-left: 10px;
 }
 
 /* Hero Section */
@@ -31,7 +93,7 @@ body, html {
 .right_logo img {
   margin-right: 50px;
   margin-top: 50px;
-  max-width: 120px;
+  max-width: 180px;
 }
 
 .whatsapp_logo {
@@ -43,7 +105,7 @@ body, html {
   animation: fadeIn 2.5s ease-in-out;
   margin-bottom: 70px;
   margin-left: 50px;
-  width: 200px;
+  width: 180px;
 }
 
 .call_now {
@@ -114,15 +176,15 @@ body, html {
 
 /* Responsive Design */
 @media (max-width: 575.98px) {
-  .texts1 {
+  .logo {
       /* margin-left: -151px !important; */
       margin-left: 5px !important;
-      margin-bottom: -172px;
+      margin-bottom: 180px;
       right:  auto !important;
   }
-.translate-middle {
-  transform: translate(0%, -50%) !important;
-}
+  .translate-middle {
+    transform: translate(0%, -50%) !important;
+  }
 
   .firstSpan {
       margin-left: 10px;
@@ -130,24 +192,24 @@ body, html {
   }
 
   .sceSpan {
-      font-size: 35px !important;
-      font-weight: bold !important;
+    font-size: 35px !important;
+    font-weight: bold !important;
   }
 
   .logo p {
-      font-size: 20px !important;
-      margin: 10px;
-      padding: 5px;
-      font-weight: bold !important;
-      border-radius: 5px;
-      background-color: #F8A300;
+    font-size: 20px !important;
+    margin: 10px;
+    padding: 5px;
+    font-weight: bold !important;
+    border-radius: 5px;
+    background-color: #F8A300;
   }
 
   .whatsapp_logo img {
       width: 170px !important;
       margin-bottom: 190px !important;
-      margin-left: auto !important;{
-    
+      margin-left: auto !important;
+  }
 }
 
 
@@ -193,6 +255,33 @@ body, html {
       margin-right: 20px;
   }
 }
+
+
+@media (max-width: 991.98px) and (min-width: 767px) {
+  .logo {
+    margin-left: -190px !important;
+    margin-bottom: 0;
+    
+    left: 0;
+  }
+
+  /* .translate-middle {
+    transform: translate(0%, -50%) !important;
+  } */
+
+
+  .whatsapp_logo img {
+      width: 130px !important;
+      margin-bottom: 80px !important;
+      margin-left: 30px !important;
+  }
+
+  .right_logo img {
+    margin-right: 70px;
+    min-width:  200px;
+  }
+}
+
 
 
 
